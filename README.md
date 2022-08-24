@@ -1,0 +1,2 @@
+# KotlinpooHeranca
+Exercício utilizando heranças
