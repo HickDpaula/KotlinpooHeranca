@@ -1,0 +1,35 @@
+fun main () {
+    println("-------------------------------------------------------------")
+    println("CLASSE CAVALO")
+    var cavalo1 = Cavalo("Alipio","12")
+    println("nome: " + cavalo1.nome)
+    println("idade: " + cavalo1.idade)
+    cavalo1.emitirSom()
+    cavalo1.coice()
+    cavalo1.correr()
+    cavalo1.trotar()
+    println("-------------------------------------------------------------")
+    println("CLASSE CACHORRO")
+    var cachorro1 = Cachorro("Noir","7")
+    println("nome: "+ cachorro1.nome)
+    println("idade: "+ cachorro1.idade)
+    cachorro1.rosnar()
+    cachorro1.abanarRabo()
+    cachorro1.emitirSom()
+    cachorro1.correr()
+    println("-------------------------------------------------------------")
+    println("CLASSE PREGUIÇA")
+    var preguica1 = Preguica("Lazy","5")
+    println("nome: " + preguica1.nome)
+    println("idade: " + preguica1.idade)
+    preguica1.seCocar()
+    preguica1.garrasArranhar()
+    preguica1.subirEmArvores()
+    preguica1.emitirSom()
+    preguica1.executarCoisasAleatorias()
+    println("-------------------------------------------------------------")
+
+
+
+
+}
